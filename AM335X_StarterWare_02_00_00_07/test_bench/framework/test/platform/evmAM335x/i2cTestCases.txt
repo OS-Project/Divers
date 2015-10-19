@@ -1,0 +1,5 @@
+1 hsi2cEeprom.bin 30 hsi2cEeprom_TC1.pm
+2 hsi2cEeprom.bin 30 hsi2cEeprom_TC2.pm
+3 hsi2cEeprom.bin 30 hsi2cEeprom_TC3.pm
+4 hsi2cEeprom.bin 30 hsi2cEeprom_TC4.pm
+5 hsi2cEeprom.bin 30 hsi2cEeprom_TC5.pm

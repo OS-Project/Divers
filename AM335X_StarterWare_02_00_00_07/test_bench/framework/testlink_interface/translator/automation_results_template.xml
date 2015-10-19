@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hash>
+  <test-session type="array">
+    <test-session>
+      <logpath>http://linux-psp-server.india.ext.ti.com/testlink/logs-137/ubuntu-desktop/ubuntu-desktop/ubuntu-desktop12_16_2011_11_45_16/session.html</logpath>
+      <n-passed type="integer">0</n-passed>
+      <n-failed type="integer">0</n-failed>
+      <n-skipped type="integer">1</n-skipped>
+      <testcase type="array">
+        <testcase>
+          <id>1195081</id>
+          <logpath>http://linux-psp-server.india.ext.ti.com/testlink/logs-137/ubuntu-desktop/ubuntu-desktop/ubuntu-desktop12_16_2011_11_45_16/files/session_iteration_1/test_1195081/dev_test2_1.html</logpath>
+          <comment nil="true"></comment>
+          <start-time nil="true"></start-time>
+          <end-time nil="true"></end-time>
+          <status nil="true"></status>
+          <iter-complete nil="true"></iter-complete>
+          <test-iteration type="array">
+            <test-iteration>
+              <iteration-id type="integer">1</iteration-id>
+              <comments>UUT may be hanging!</comments>
+              <start-time>2011-12-16 11:45:16</start-time>
+              <end-time>2011-12-16 11:45:21</end-time>
+            </test-iteration>
+          </test-iteration>
+        </testcase>
+      </testcase>
+      <start-time>2011-12-16 11:45:16</start-time>
+      <end-time>2011-12-16 11:45:22</end-time>
+    </test-session>
+  </test-session>
+</hash>
