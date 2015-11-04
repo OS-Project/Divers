@@ -1,0 +1,30 @@
+You can build qemu with beagleboard support yourself with these steps, which I have tried with Ubuntu 14.04.
+
+First remove the qemu package that you have installed with
+
+$ sudo apt-get remove qemu-system-arm
+
+Then download the source code for qemu to a suitable folder
+
+$ git clone git://git.linaro.org/qemu/qemu-linaro.git
+ $ cd qemu-linaro
+
+You need these two packages to build qemu
+
+$ sudo apt-get install libglib2.0-dev zlib1g-dev
+
+You will also need the pixman and dtc git submodules
+
+$ git submodule update --init pixman
+ $ git submodule update --init dtc
+
+$ sudo apt-get install autoconf
+$ sudo apt-get install libtool
+$ sudo apt-get install bison flex --no-install-recommends
+Now you can continue and configure and bulid it!
+
+$ mkdir build
+ $ cd build
+ $ ../configure --prefix=/opt
+ $ make -j8
+ $ sudo make install
