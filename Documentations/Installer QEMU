@@ -28,3 +28,5 @@ $ mkdir build
  $ ../configure --prefix=/opt
  $ make -j8
  $ sudo make install
+
+$ export PATH=$PATH:/opt/bin
